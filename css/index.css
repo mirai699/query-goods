@@ -1,0 +1,33 @@
+.search {
+  font-size: 13px;
+  text-align: center;
+  margin: 20px auto;
+}
+.search input {
+  width: 70px;
+  border: 1px solid #c9c7c7;
+  height: 20px;
+}
+.search button {
+  width: 40px;
+  font-size: 12px;
+}
+table,
+table th,
+table td {
+  border: 1px solid black;
+}
+table {
+  border-collapse: collapse;
+  text-align: center;
+  margin: 0 auto;
+}
+table thead th:first-child {
+  width: 70px;
+}
+table thead th:nth-child(2) {
+  width: 150px;
+}
+table thead th:last-child {
+  width: 120px;
+}
